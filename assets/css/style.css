@@ -1,0 +1,97 @@
+/*bootstrap customisation*/
+body {
+    min-width: 260px;
+}
+.form-control {
+    border-radius: 0;
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+.btn {
+    outline: none !important;
+}
+
+/*header - navbar*/
+body > .navbar {
+    border-radius: 0;
+}
+
+body > .navbar > .navbar-text.name {
+    margin: 12pt;
+}
+
+body > .navbar > .navbar-text a {
+    font-size: 12pt;
+    font-weight: bold;
+    color: cornflowerblue;
+}
+
+ul.todoList > li > .panel {
+    position: relative;
+    border-color: #2a5e70;
+    transition: border-color .5s;
+    box-shadow: 0 4px 20px 0px #a2a2a2;
+}
+
+ul.todoList > li > .panel .form-group .messageBar {
+    white-space: pre;
+}
+ul.todoList > li > .panel .form-group div {
+    position: relative;
+}
+
+ul.todoList > li > .panel .form-group div img {
+    width: auto;
+    height: 240px;
+}
+
+ul.todoList > li > .panel.checked {
+    background-color: #f0ffd5;
+}
+
+ul.todoList > li > .panel:hover {
+    border-color: #6ccaa7;
+}
+
+/*create task*/
+.createTask {
+    border-color: #66afe9;
+    box-shadow: 0 4px 20px 0px #a2a2a2;
+}
+
+.createTask textarea {
+    width: 100%;
+}
+.preview {
+    position: relative;
+}
+.preview .panel {
+    background-color: #fcf8e3;
+    border: 5px dashed #f5e79e;
+    box-shadow: 0 4px 20px 0px #a2a2a2;
+
+}
+.status {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    z-index: 1000;
+}
+
+.submitSignIn {
+    display: inline-block;
+    position: relative;
+    height: 40px;
+    left: 155px;
+    width: 172px;
+}
+.modal-body .form-control {
+    height:100%;
+}
+.modal-body {
+    position: relative;
+    height: 200px;
+}
